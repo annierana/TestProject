@@ -8,7 +8,7 @@ def print_hi(message):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi everyone, {message}')  # Press Ctrl+F8 to toggle the breakpoint.
     file1 = pd.read_csv("stores data-set.csv")
-    print(file1)
+    print(file1.info)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
